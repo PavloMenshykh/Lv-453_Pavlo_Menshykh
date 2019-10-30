@@ -1,0 +1,11 @@
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.deps.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.runtimeconfig.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.runtimeconfig.dev.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.csprojAssemblyReference.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.AssemblyInfoInputs.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.AssemblyInfo.cs
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.pdb
