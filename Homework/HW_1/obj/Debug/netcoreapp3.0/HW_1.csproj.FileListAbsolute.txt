@@ -9,3 +9,14 @@ C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\
 C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.AssemblyInfo.cs
 C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.dll
 C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.pdb
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.csprojAssemblyReference.cache
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.AssemblyInfoInputs.cache
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.AssemblyInfo.cs
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.dll
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\obj\Debug\netcoreapp3.0\HW_1.pdb
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.exe
+E:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.deps.json
+E:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.runtimeconfig.json
+E:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.runtimeconfig.dev.json
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.dll
+e:\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW_1\bin\Debug\netcoreapp3.0\HW_1.pdb
