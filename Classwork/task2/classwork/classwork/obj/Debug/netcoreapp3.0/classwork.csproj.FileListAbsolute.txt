@@ -1,0 +1,11 @@
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\obj\Debug\netcoreapp3.0\classwork.AssemblyInfoInputs.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\obj\Debug\netcoreapp3.0\classwork.AssemblyInfo.cs
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\bin\Debug\netcoreapp3.0\classwork.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\bin\Debug\netcoreapp3.0\classwork.deps.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\bin\Debug\netcoreapp3.0\classwork.runtimeconfig.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\bin\Debug\netcoreapp3.0\classwork.runtimeconfig.dev.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\bin\Debug\netcoreapp3.0\classwork.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\bin\Debug\netcoreapp3.0\classwork.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\obj\Debug\netcoreapp3.0\classwork.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\obj\Debug\netcoreapp3.0\classwork.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task2\classwork\classwork\obj\Debug\netcoreapp3.0\classwork.csprojAssemblyReference.cache
