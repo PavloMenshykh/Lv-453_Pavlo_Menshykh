@@ -1,0 +1,11 @@
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\bin\Debug\netcoreapp3.0\task6.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\bin\Debug\netcoreapp3.0\task6.deps.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\bin\Debug\netcoreapp3.0\task6.runtimeconfig.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\bin\Debug\netcoreapp3.0\task6.runtimeconfig.dev.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\bin\Debug\netcoreapp3.0\task6.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\bin\Debug\netcoreapp3.0\task6.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\obj\Debug\netcoreapp3.0\task6.csprojAssemblyReference.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\obj\Debug\netcoreapp3.0\task6.AssemblyInfoInputs.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\obj\Debug\netcoreapp3.0\task6.AssemblyInfo.cs
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\obj\Debug\netcoreapp3.0\task6.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task6\task6\obj\Debug\netcoreapp3.0\task6.pdb
