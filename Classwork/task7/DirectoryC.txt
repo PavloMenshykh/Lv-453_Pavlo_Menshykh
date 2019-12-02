@@ -12,3 +12,16 @@ C:\Recovery
 C:\System Volume Information
 C:\Users
 C:\Windows
+C:\$Recycle.Bin
+C:\AMD
+C:\BIOS
+C:\Documents and Settings
+C:\Drivers
+C:\PerfLogs
+C:\Program Files
+C:\Program Files (x86)
+C:\ProgramData
+C:\Recovery
+C:\System Volume Information
+C:\Users
+C:\Windows

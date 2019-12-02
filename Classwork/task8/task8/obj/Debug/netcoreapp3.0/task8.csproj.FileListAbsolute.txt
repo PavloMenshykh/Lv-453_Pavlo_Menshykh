@@ -1,0 +1,11 @@
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\bin\Debug\netcoreapp3.0\task8.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\bin\Debug\netcoreapp3.0\task8.deps.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\bin\Debug\netcoreapp3.0\task8.runtimeconfig.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\bin\Debug\netcoreapp3.0\task8.runtimeconfig.dev.json
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\bin\Debug\netcoreapp3.0\task8.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\bin\Debug\netcoreapp3.0\task8.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\obj\Debug\netcoreapp3.0\task8.csprojAssemblyReference.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\obj\Debug\netcoreapp3.0\task8.AssemblyInfoInputs.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\obj\Debug\netcoreapp3.0\task8.AssemblyInfo.cs
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\obj\Debug\netcoreapp3.0\task8.dll
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task8\task8\obj\Debug\netcoreapp3.0\task8.pdb
