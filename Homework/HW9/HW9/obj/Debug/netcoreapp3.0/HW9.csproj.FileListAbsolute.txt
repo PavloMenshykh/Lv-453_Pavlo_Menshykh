@@ -1,0 +1,11 @@
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\bin\Debug\netcoreapp3.0\HW9.exe
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\bin\Debug\netcoreapp3.0\HW9.deps.json
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\bin\Debug\netcoreapp3.0\HW9.runtimeconfig.json
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\bin\Debug\netcoreapp3.0\HW9.runtimeconfig.dev.json
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\bin\Debug\netcoreapp3.0\HW9.dll
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\bin\Debug\netcoreapp3.0\HW9.pdb
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\obj\Debug\netcoreapp3.0\HW9.csprojAssemblyReference.cache
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\obj\Debug\netcoreapp3.0\HW9.AssemblyInfoInputs.cache
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\obj\Debug\netcoreapp3.0\HW9.AssemblyInfo.cs
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\obj\Debug\netcoreapp3.0\HW9.dll
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW9\HW9\obj\Debug\netcoreapp3.0\HW9.pdb
