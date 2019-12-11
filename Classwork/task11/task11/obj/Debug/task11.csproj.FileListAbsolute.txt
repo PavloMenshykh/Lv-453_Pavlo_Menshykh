@@ -1,0 +1,6 @@
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task11\task11\bin\Debug\task11.exe.config
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task11\task11\bin\Debug\task11.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task11\task11\bin\Debug\task11.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task11\task11\obj\Debug\task11.csprojAssemblyReference.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task11\task11\obj\Debug\task11.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task11\task11\obj\Debug\task11.pdb

@@ -1,0 +1,6 @@
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task10\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.exe.config
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task10\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task10\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task10\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojAssemblyReference.cache
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task10\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.exe
+C:\Users\Pavlo\Desktop\Educational projects\Lv-453_Pavlo_Menshykh\Classwork\task10\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
