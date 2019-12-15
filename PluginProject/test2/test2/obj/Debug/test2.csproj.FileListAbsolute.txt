@@ -1,0 +1,7 @@
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\bin\Debug\test2.addin
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\bin\Debug\test2.dll
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\bin\Debug\test2.pdb
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\obj\Debug\test2.dll
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\obj\Debug\test2.pdb
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\bin\Debug\test2.dll.config
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\test2\test2\obj\Debug\test2.csprojAssemblyReference.cache

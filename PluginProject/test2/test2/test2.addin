@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>test2</Name>
+    <Assembly>test2.dll</Assembly>
+    <AddInId>5D0A6A6D-09D9-4312-995F-F461FCC1418D</AddInId>
+    <FullClassName>test2.GetElementID</FullClassName>
+    <Text>GetElementId</Text>
+    <Description>Get the Id from an element</Description>
+    <VendorId>Pavlo</VendorId>
+    <VendorDescription>PavloCsharp</VendorDescription>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
