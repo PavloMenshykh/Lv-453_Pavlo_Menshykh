@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <RevitAddIns>
-  <AddIn Type="Command">
+  <AddIn Type="Application">
     <Name>FractalTreeGenerator</Name>
     <Assembly>FractalTreeGenerator.dll</Assembly>
-    <AddInId>
-      4856741C-931F-4A9E-A2E7-905B044DF1C5
-    </AddInId>
-    <FullClassName>FractalTreeGenerator.GenerateFractalTree</FullClassName>
-    <Text>FractalTreeGenerator</Text>
-    <Description>Generate fractal tree from a line</Description>
+    <AddInId>EEC61074-FA99-44AB-AA37-C7FE6B1877B8</AddInId>
+    <FullClassName>FractalTreeGenerator.FractalPanel</FullClassName>
     <VendorId>Pavlo</VendorId>
     <VendorDescription>Pavlo</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
   </AddIn>
 </RevitAddIns>
