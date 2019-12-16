@@ -1,0 +1,6 @@
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW10\HW10\bin\Debug\HW10.exe.config
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW10\HW10\bin\Debug\HW10.exe
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW10\HW10\bin\Debug\HW10.pdb
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW10\HW10\obj\Debug\HW10.csprojAssemblyReference.cache
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW10\HW10\obj\Debug\HW10.exe
+C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\Homework\HW10\HW10\obj\Debug\HW10.pdb
