@@ -3,4 +3,3 @@ C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\FractalTreeGenerator\
 C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\FractalTreeGenerator\FractalTreeGenerator\FractalTreeGenerator\bin\Debug\FractalTreeGenerator.pdb
 C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\FractalTreeGenerator\FractalTreeGenerator\FractalTreeGenerator\obj\Debug\FractalTreeGenerator.dll
 C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\FractalTreeGenerator\FractalTreeGenerator\FractalTreeGenerator\obj\Debug\FractalTreeGenerator.pdb
-C:\Users\ilide\Desktop\Lv-453_Pavlo_Menshykh\PluginProject\FractalTreeGenerator\FractalTreeGenerator\FractalTreeGenerator\obj\Debug\FractalTreeGenerator.csprojAssemblyReference.cache

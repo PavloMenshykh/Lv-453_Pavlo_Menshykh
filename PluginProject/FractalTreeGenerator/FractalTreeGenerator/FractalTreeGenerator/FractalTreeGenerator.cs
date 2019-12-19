@@ -12,14 +12,15 @@ using Autodesk.Revit.UI.Events;
 namespace FractalTreeGenerator
 {
     //class to store variables as globals 
-    public static class GlobVars
+    public class GlobVars
     {
         //Default tree depth
         public static int treeDepth = 7;
 
         //Hardcoded tree values
-        public static double rotAngle = 34;
+        public static double rotAngle = 28;
         public static double lenFactor = 0.78;
+        public static double lenFactorChristmas = lenFactor / 2;
         public static double rndCoof = 0.15;
 
         //setting a randomizer
@@ -66,11 +67,9 @@ namespace FractalTreeGenerator
                     GlobVars.treeDepth = Convert.ToInt32(item1.Value.ToString());
                 }
                 catch
-                { 
+                {
                 }
             }
-
-
             return Result.Succeeded;
         }
         public Result OnShutdown(UIControlledApplication application)
@@ -110,7 +109,8 @@ namespace FractalTreeGenerator
                 if (refLine != null)
                 {
                     //call recursive function
-                    TreeRecursion(GlobVars.treeDepth, crv);
+                    //ChristmasRecursion(GlobVars.treeDepth, crv, GlobVars.tree, GlobVars.rotAngle, GlobVars.lenFactorChristmas);
+                    TreeRecursion(GlobVars.treeDepth, crv, GlobVars.tree, GlobVars.rotAngle, GlobVars.lenFactor);
 
                     //Place generated lines in Revit
                     using (Transaction trans = new Transaction(doc, "Place Tree"))
@@ -126,7 +126,6 @@ namespace FractalTreeGenerator
                         trans.Commit();
                     }
                 }
-
                 return Result.Succeeded;
             }
             catch (Exception e)
@@ -138,13 +137,13 @@ namespace FractalTreeGenerator
 
 
         //Converts degree to radians
-        public static double ToRad(double angle)
+        public double ToRad(double angle)
         {
             return Math.PI * angle / 180.0;
         }
 
         //generating a random val
-        public static int Rnder(double value)
+        public int AddRandom(double value)
         {
             int result = GlobVars.random.Next(Convert.ToInt32(value - (value * GlobVars.rndCoof)),
                 Convert.ToInt32(value + (value * GlobVars.rndCoof)));
@@ -152,48 +151,126 @@ namespace FractalTreeGenerator
             return result;
         }
 
+        //get line end moved along it's axis
+        public XYZ MoveAlongLine(double distance, Curve line)
+        {
+            //Get start and end points
+            XYZ start = line.GetEndPoint(0);
+            XYZ end = line.GetEndPoint(1);
+
+            //Move line end point by distance
+            XYZ result = end + (end - start).Normalize().Multiply(distance);
+            return result;
+        }
+
+        //rotate a point along a reference point
+        public XYZ RotatePoint(double angle, XYZ reference, XYZ toRotate)
+        {
+            //mathematical rotation in 2 dimentions
+            XYZ result = new XYZ(
+                Math.Cos(angle) * (toRotate.X - reference.X) - Math.Sin(angle) * (toRotate.Y - reference.Y) + reference.X,
+                Math.Sin(angle) * (toRotate.X - reference.X) + Math.Cos(angle) * (toRotate.Y - reference.Y) + reference.Y,
+                toRotate.Z);
+
+            return result;
+        }
+
+        //generate tree side branch
+        public Curve SideBranch(double angle, Curve branch, double scaleFactor)
+        {
+            //Get length and adjust for branch
+            double cLength = branch.Length;
+
+            //Get end point of branch
+            XYZ end = branch.GetEndPoint(1);
+
+            //generate move distance
+            double lengthRnd = AddRandom(cLength) * scaleFactor;
+
+            //generate new branch
+            XYZ pntMoved = MoveAlongLine(lengthRnd, branch);
+            XYZ pntRotated = RotatePoint(angle, end, pntMoved);
+            Line generatedBranch = Line.CreateBound(end, pntRotated);
+
+            return generatedBranch;
+        }
+
+        //generate both side branches
+        public void GenerateSideBranches(int depth, Curve branch, List<Curve> listToFill, double rotationAngle, double scaleFactor,
+            Action<int, Curve, List<Curve>, double, double> method)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                //getting angle values
+                double rotation = ToRad(AddRandom(rotationAngle));
+
+                //generate a + and - rotations
+                if (i == 1) rotation = -rotation;
+
+                Curve newBranch = SideBranch(rotation, branch, scaleFactor);
+                listToFill.Add(newBranch);
+
+                //call next recursion
+                method(depth - 1, newBranch, listToFill, rotationAngle, scaleFactor);
+            }
+        }
+
+
         //Tree recursive method
-        public static void TreeRecursion(int depth, Curve branch)
+        public void TreeRecursion(int depth, Curve branch, List<Curve> listToFill, double rotationAngle, double scaleFactor)
         {
             if (depth > 0)
             {
-                //getting angle values
-                double radPlus = ToRad(Rnder(GlobVars.rotAngle));
-                double radMinus = -ToRad(Rnder(GlobVars.rotAngle));
+                //test for short length
+                try
+                {
+                    branch.GetEndPoint(1);
 
-                //Get start and end points
-                XYZ start = branch.GetEndPoint(0);
-                XYZ end = branch.GetEndPoint(1);
+                    //asssign recursion type
+                    Action<int, Curve, List<Curve>, double, double> recursionType = TreeRecursion;
 
-                //Get length and adjust for branch
-                double cLength = branch.Length;
-                double lenOne = Rnder(cLength) * GlobVars.lenFactor;
-                double lenTwo = Rnder(cLength) * GlobVars.lenFactor;
+                    GenerateSideBranches(depth, branch, listToFill, rotationAngle, scaleFactor, recursionType);
+                }
+                catch
+                {
+                    //simply return nothing
+                }
+            }
+        }
 
-                //Generating new end points along vector
-                XYZ newEndOne = end + (end - start).Normalize().Multiply(lenOne); 
-                XYZ newEndTwo = end + (end - start).Normalize().Multiply(lenTwo);
 
-                //Rotating points to two sides
-                newEndOne = new XYZ(
-                    Math.Cos(radPlus) * (newEndOne.X - end.X) - Math.Sin(radPlus) * (newEndOne.Y - end.Y) + end.X,
-                    Math.Sin(radPlus) * (newEndOne.X - end.X) + Math.Cos(radPlus) * (newEndOne.Y - end.Y) + end.Y,
-                    newEndOne.Z);
-                Line lineOne = Line.CreateBound(end, newEndOne);
-                GlobVars.tree.Add(lineOne);
+        //Christmas tree recursive method
+        public void ChristmasRecursion(int depth, Curve branch, List<Curve> listToFill, double rotationAngle, double scaleFactor)
+        {
+            if (depth > 0)
+            {
+                try
+                {
+                    //Get end point of branch
+                    XYZ end = branch.GetEndPoint(1);
 
-                //call recursive function
-                TreeRecursion(depth - 1, lineOne);
+                    //asssign recursion type
+                    Action<int, Curve, List<Curve>, double, double> recursionType = ChristmasRecursion;
 
-                newEndTwo = new XYZ(
-                    Math.Cos(radMinus) * (newEndTwo.X - end.X) - Math.Sin(radMinus) * (newEndTwo.Y - end.Y) + end.X,
-                    Math.Sin(radMinus) * (newEndTwo.X - end.X) + Math.Cos(radMinus) * (newEndTwo.Y - end.Y) + end.Y,
-                    newEndTwo.Z);
-                Line lineTwo = Line.CreateBound(end, newEndTwo);
-                GlobVars.tree.Add(lineTwo);
+                    //additional branch for christmas tree
+                    //Get length and adjust for branch
+                    double cLength = branch.Length;
 
-                //call recursive function
-                TreeRecursion(depth - 1, lineTwo);
+                    //generate move distance
+                    double lengthRnd = AddRandom(cLength) * GlobVars.lenFactor;
+
+                    XYZ newPoint = MoveAlongLine(lengthRnd, branch);
+                    Curve newBranch = Line.CreateBound(end, newPoint);
+                    listToFill.Add(newBranch);
+
+                    //call next recursion
+                    ChristmasRecursion(depth - 1, newBranch, listToFill, rotationAngle, scaleFactor);
+                    GenerateSideBranches(depth, branch, listToFill, rotationAngle, scaleFactor, recursionType);
+                }
+                catch
+                { 
+                    //simply return nothing
+                }
             }
         }
     }
